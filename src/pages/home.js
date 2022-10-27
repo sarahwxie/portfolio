@@ -12,11 +12,11 @@ function HomePage() {
           }}
         >
           <Parallax pages={2}>
-          <ParallaxLayer offset={0} speed={0.2} style={{ opacity: 1, width:"auto", marginLeft: "40%", marginTop: "12vh" }}>
+          <ParallaxLayer offset={0} speed={0.2} style={{ opacity: 1, width:"auto", marginLeft: "35%", marginTop: "12vh" }}>
               <img
                 alt="self portrait"
                 src={require('../assets/sarah.png')}
-                style={{ width: "40%" }}
+                style={{ width: "35%" }}
               />
           </ParallaxLayer>
 
@@ -41,7 +41,7 @@ function HomePage() {
             <ParallaxLayer offset={0} speed={-0.1} style={{ opacity: 1, width:"auto", marginLeft: "-40%", marginTop: "-8vh" }}>
             <div style={{ marginLeft: "10%", display: "inline-block"}}>
                 <h1
-                  style={{ marginTop: "35vh", fontSize: "92px", fontWeight: "900" }}
+                  style={{ marginTop: "35vh", fontSize: "82px", fontWeight: "800" }}
                 >SARAH XIE</h1>
                   <p
                     style={{ fontFamily: "space mono, sans-serif", color: "#00008b", textAlign: "right", marginLeft: "15px" }}
