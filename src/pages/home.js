@@ -20,8 +20,6 @@ function HomePage() {
               />
           </ParallaxLayer>
 
-
-
             <ParallaxLayer offset={0} speed={-0.1} style={{ opacity: 0.6, marginTop: "-8vh" }}>
               <img
                 alt="blue2"
