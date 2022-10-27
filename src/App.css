@@ -13,19 +13,29 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.h {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
 }
 
-.App-link {
-  color: #61dafb;
+.p {
+    font-family: "work-sans", sans-serif;
+}
+
+/* NAV STYLES */
+.navSelf {
+    /* padding: 10px; */
+}
+
+.mediaIcons {
+    margin-left: auto;
+    margin-top: 12px;
+}
+
+.email {
+    color: #757575;
+    font-family: "work-sans", sans-serif;
+    font-size: 12px;
 }
 
 @keyframes App-logo-spin {
