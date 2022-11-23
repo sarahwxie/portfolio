@@ -25,7 +25,8 @@ class NavBar extends Component {
               <Navbar.Collapse>
                 <Nav>
                   <Nav.Link style={{ fontFamily: "work-sans, sans-serif", color: "#00008b" }} class="navSelf" href="/#/experience">experience</Nav.Link>
-                  <Nav.Link style={{ fontFamily: "work-sans, sans-serif", color: "#00008b" }} href="/#/projects">projects</Nav.Link>
+                  <Nav.Link style={{ fontFamily: "work-sans, sans-serif", color: "#00008b" }} class="navSelf" href="/#/projects">projects</Nav.Link>
+                  <Nav.Link style={{ fontFamily: "work-sans, sans-serif", color: "#00008b" }} class="navSelf" href="/#/resume">resume</Nav.Link>
                 </Nav>
 
                 <div className="mediaIcons">
