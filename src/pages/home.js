@@ -1,8 +1,12 @@
-import {React, useEffect} from "react";
+import {React, useEffect, useRef} from "react";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+import Typewriter from "typewriter-effect";
+
 
 // create a parallax homepage
 function HomePage() {
+    const element = "Web Development";
+
     useEffect(() => {
         // List of sentences
         var _CONTENT = [ "Web Development", "Machine Learning", "Cybersecurity", "Blockchain/Web3" ];
@@ -17,13 +21,15 @@ function HomePage() {
         var _INTERVAL_VAL;
 
         // Element that holds the text
-        const element = document.querySelector("#typeText");
+        // const element = document.querySelector("#typeText");
 
         // Implements typing effect
         function Type() {
         	var text =  _CONTENT[_PART].substring(0, _PART_INDEX + 1);
-        	element.innerHTML = text;
+        	// element.innerHTML = text;
+            element = text;
         	_PART_INDEX++;
+
 
         	// If full sentence has been displayed then start to delete the sentence after some time
         	if(text === _CONTENT[_PART]) {
@@ -37,7 +43,8 @@ function HomePage() {
         // Implements deleting effect
         function Delete() {
         	var text =  _CONTENT[_PART].substring(0, _PART_INDEX - 1);
-        	element.innerHTML = text;
+        	// element.innerHTML = text;
+            element = text;
         	_PART_INDEX--;
 
         	// If sentence has been deleted then start to display the next sentence
@@ -97,11 +104,19 @@ function HomePage() {
 
             <ParallaxLayer offset={0} speed={-0.1} style={{ opacity: 1, width:"auto", marginLeft: "-40%", marginTop: "-8vh" }}>
             <div style={{ marginLeft: "10%", display: "inline-block"}}>
-                <h1 
+                <h1
                   style={{ marginTop: "35vh", fontSize: "92px", fontWeight: "900" }}
                 >SARAH XIE</h1>
-                  <div style={{ fontFamily: "space mono, sans-serif", color: "#00008b", textAlign: "right", marginLeft: "15px" }} id="container">
-                    	<div id="typeText"></div>
+                  <div style={{ fontFamily: "space mono, sans-serif", fontSize:"20px", color: "#00008b", textAlign: "right", marginLeft: "15px" }} id="container">
+                    	<div id="typeText">
+                            <Typewriter options={{
+                                strings: ['Web Development', "Machine Learning", "Cybersecurity", "Blockchain/Web3"],
+                                delay: 100,
+                                autoStart: true,
+                                loop: true
+                              }}
+                           />
+                       </div>
                    </div>
               </div>
             </ParallaxLayer>
