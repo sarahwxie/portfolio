@@ -1,12 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.c571af81.css",
-    "main.js": "/portfolio/static/js/main.f9517b4c.js",
+    "main.js": "/portfolio/static/js/main.88969536.js",
     "static/media/linux.png": "/portfolio/static/media/linux.b10d86409b4a02876f6c.png",
     "static/media/dashboard.png": "/portfolio/static/media/dashboard.4c5101dc93b19ca2a67a.png",
     "static/media/blue-3.png": "/portfolio/static/media/blue-3.aedafc48c5dd28960c65.png",
     "static/media/ml.png": "/portfolio/static/media/ml.e21e7f6bec3cdd308cd4.png",
     "static/media/fa-solid-900.ttf": "/portfolio/static/media/fa-solid-900.b48ad290d0335879a92b.ttf",
+    "static/media/bobacoin.png": "/portfolio/static/media/bobacoin.0ca1953366d454a77cee.png",
+    "static/media/club.png": "/portfolio/static/media/club.d3afb3263fc10bf259dc.png",
     "static/media/sarah.png": "/portfolio/static/media/sarah.6c47875ea36084b9f38b.png",
     "static/media/fa-brands-400.ttf": "/portfolio/static/media/fa-brands-400.f9ee61fab3c11e2f3ed3.ttf",
     "static/media/database.png": "/portfolio/static/media/database.3961d8254351857c5342.png",
@@ -21,6 +23,7 @@
     "static/media/raspberry.png": "/portfolio/static/media/raspberry.59614f2cfbca1a123212.png",
     "static/media/blue-1.png": "/portfolio/static/media/blue-1.578211c3a5109f1d5a54.png",
     "static/media/ctf.png": "/portfolio/static/media/ctf.3333e64d2707950e1059.png",
+    "static/media/etherscan.png": "/portfolio/static/media/etherscan.10f5eec7adacf5f024f1.png",
     "static/media/apache.png": "/portfolio/static/media/apache.07e0e0b3ea44cf351a68.png",
     "static/media/jupyter.png": "/portfolio/static/media/jupyter.e0e612fd290b62ecd44a.png",
     "static/media/growth.webp": "/portfolio/static/media/growth.06ba5630c732642ded29.webp",
@@ -34,6 +37,7 @@
     "static/media/supercomputer.jpeg": "/portfolio/static/media/supercomputer.64f6e09631df770ad59a.jpeg",
     "static/media/bash.png": "/portfolio/static/media/bash.59631ec9573f5efafe1a.png",
     "static/media/replit.jpeg": "/portfolio/static/media/replit.24d04c8a581d6b183b26.jpeg",
+    "static/media/ethereum.png": "/portfolio/static/media/ethereum.3f29be09bb0aeea08657.png",
     "static/media/canva.png": "/portfolio/static/media/canva.6f5a72d9a31bfbd46535.png",
     "static/media/tensorflow.png": "/portfolio/static/media/tensorflow.d11015c8629213acd0d2.png",
     "static/media/teach.jpeg": "/portfolio/static/media/teach.02592e023b75cc67bb1d.jpeg",
@@ -56,15 +60,17 @@
     "static/media/progress.jpeg": "/portfolio/static/media/progress.f4bcba6646c36a366901.jpeg",
     "static/media/fa-v4compatibility.ttf": "/portfolio/static/media/fa-v4compatibility.f601162ae669f88823a3.ttf",
     "static/media/powershell.webp": "/portfolio/static/media/powershell.248dd790049c4485f2f6.webp",
+    "static/media/web3.webp": "/portfolio/static/media/web3.c1836c9d670bbf2c5815.webp",
     "static/media/api.webp": "/portfolio/static/media/api.0be7927557d13e15936d.webp",
+    "static/media/solidity.webp": "/portfolio/static/media/solidity.ad0bcf9ee8c32827b56c.webp",
     "static/media/fa-v4compatibility.woff2": "/portfolio/static/media/fa-v4compatibility.745989aab0d69cab7e70.woff2",
     "static/media/uiux.svg": "/portfolio/static/media/uiux.d53cd2d0e223c556b020.svg",
     "index.html": "/portfolio/index.html",
     "main.c571af81.css.map": "/portfolio/static/css/main.c571af81.css.map",
-    "main.f9517b4c.js.map": "/portfolio/static/js/main.f9517b4c.js.map"
+    "main.88969536.js.map": "/portfolio/static/js/main.88969536.js.map"
   },
   "entrypoints": [
     "static/css/main.c571af81.css",
-    "static/js/main.f9517b4c.js"
+    "static/js/main.88969536.js"
   ]
 }
