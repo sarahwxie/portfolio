@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.c571af81.css",
-    "main.js": "/portfolio/static/js/main.f3bd76ed.js",
+    "main.js": "/portfolio/static/js/main.d2ecc34f.js",
     "static/media/linux.png": "/portfolio/static/media/linux.b10d86409b4a02876f6c.png",
     "static/media/dashboard.png": "/portfolio/static/media/dashboard.4c5101dc93b19ca2a67a.png",
     "static/media/blue-3.png": "/portfolio/static/media/blue-3.aedafc48c5dd28960c65.png",
@@ -14,6 +14,7 @@
     "static/media/database.png": "/portfolio/static/media/database.3961d8254351857c5342.png",
     "static/media/java.png": "/portfolio/static/media/java.0e2b8c521d993a5d9b63.png",
     "static/media/fa-solid-900.woff2": "/portfolio/static/media/fa-solid-900.66104b766c3d0462b3c5.woff2",
+    "static/media/capture-the-flag.jpeg": "/portfolio/static/media/capture-the-flag.9753e1c8db6a135404fc.jpeg",
     "static/media/security.jpeg": "/portfolio/static/media/security.e3300cb8b9227a15819b.jpeg",
     "static/media/sharp.png": "/portfolio/static/media/sharp.e91485c51ef815b7933f.png",
     "static/media/fa-brands-400.woff2": "/portfolio/static/media/fa-brands-400.e1a247a5ef41e1975742.woff2",
@@ -67,10 +68,10 @@
     "static/media/uiux.svg": "/portfolio/static/media/uiux.d53cd2d0e223c556b020.svg",
     "index.html": "/portfolio/index.html",
     "main.c571af81.css.map": "/portfolio/static/css/main.c571af81.css.map",
-    "main.f3bd76ed.js.map": "/portfolio/static/js/main.f3bd76ed.js.map"
+    "main.d2ecc34f.js.map": "/portfolio/static/js/main.d2ecc34f.js.map"
   },
   "entrypoints": [
     "static/css/main.c571af81.css",
-    "static/js/main.f3bd76ed.js"
+    "static/js/main.d2ecc34f.js"
   ]
 }
