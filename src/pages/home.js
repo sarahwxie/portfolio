@@ -2,10 +2,10 @@ import {React, useEffect, useRef} from "react";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import Typewriter from "typewriter-effect";
 
-
 // create a parallax homepage
 function HomePage() {
     return (
+        <div>
         <div
           style={{
             width: "100%",
@@ -13,7 +13,7 @@ function HomePage() {
             position: "absolute"
           }}
         >
-          <Parallax pages={2}>
+          <Parallax pages={2.1}>
           <ParallaxLayer offset={0} speed={0.2} style={{ opacity: 1, width:"auto", marginLeft: "40%", marginTop: "12vh" }}>
               <img
                 alt="self portrait"
@@ -46,7 +46,7 @@ function HomePage() {
                   <div style={{ fontFamily: "space mono, sans-serif", fontSize:"20px", color: "#00008b", textAlign: "right", marginLeft: "15px" }} id="container">
                     	<div id="typeText">
                             <Typewriter options={{
-                                strings: ['Web Development', "Machine Learning", "Cybersecurity", "Blockchain/Web3"],
+                                strings: ['Full Stack Web Development', "Machine Learning",'CCNA Certified', "Cybersecurity", "Blockchain/Web3"],
                                 delay: 100,
                                 autoStart: true,
                                 loop: true
@@ -56,10 +56,45 @@ function HomePage() {
                    </div>
               </div>
             </ParallaxLayer>
-
-
+            <ParallaxLayer offset={1} speed={0.2} style={{ opacity: 1, width:"70%", marginLeft:"auto", marginRight:"auto", marginTop: "12vh" }}>
+                <div class="infoDiv">
+                <div class="info-grid">
+                    <img
+                      alt="Experience"
+                      src={require('../assets/experience.webp')}
+                      style={{ width: "100%" }}
+                    />
+                    <div class="arrow-hover">
+                        <a class="homepage" href="https://sarahwxie.github.io/portfolio/#/experience">
+                            <h2>Experience »</h2>
+                            <p>Where I've been</p>
+                        </a>
+                    </div>
+                    <div class="icon">
+                      <div class="arrow"></div>
+                    </div>
+                </div>
+                <div class="info-grid">
+                    <img
+                      alt="self portrait"
+                      src={require('../assets/projects.png')}
+                      style={{ width: "100%" }}
+                    />
+                    <div class="arrow-hover">
+                        <a class="homepage" href="https://sarahwxie.github.io/portfolio/#/projects">
+                            <h2>Projects »</h2>
+                            <p>What I've made</p>
+                        </a>
+                    </div>
+                    <div class="icon">
+                      <div class="arrow"></div>
+                    </div>
+                </div>
+                </div>
+            </ParallaxLayer>
           </Parallax>
 
+        </div>
         </div>
     )
 }

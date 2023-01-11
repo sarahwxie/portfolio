@@ -10,6 +10,7 @@ import './App.css';
 import HomePage from "./pages/home";
 import ExperiencePage from "./pages/experience";
 import ProjectsPage from "./pages/projects";
+import ProgressPage from "./pages/progress";
 import Resume from "./pages/resume";
 
 

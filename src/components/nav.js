@@ -19,14 +19,14 @@ class NavBar extends Component {
     render() {
         return(
           <Navbar>
-            <Container className="navSelf">
-              <Navbar.Brand style={{ fontFamily: "Poppins, sans-serif", fontWeight: "900" }} href="/">SARAH XIE</Navbar.Brand>
+            <Container>
+              <Navbar.Brand style={{ fontFamily: "Poppins, sans-serif", fontWeight: "900" }} href="https://sarahwxie.github.io/portfolio/">SARAH XIE</Navbar.Brand>
               <Navbar.Toggle />
               <Navbar.Collapse>
                 <Nav>
-                  <Nav.Link style={{ fontFamily: "work-sans, sans-serif", color: "#00008b" }} class="navSelf" href="/#/experience">experience</Nav.Link>
-                  <Nav.Link style={{ fontFamily: "work-sans, sans-serif", color: "#00008b" }} class="navSelf" href="/#/projects">projects</Nav.Link>
-                  <Nav.Link style={{ fontFamily: "work-sans, sans-serif", color: "#00008b" }} class="navSelf" href="/#/resume">resume</Nav.Link>
+                  <Nav.Link style={{ fontFamily: "work-sans, sans-serif", color: "#00008b" }}  href="https://sarahwxie.github.io/portfolio/#/experience">experience</Nav.Link>
+                  <Nav.Link style={{ fontFamily: "work-sans, sans-serif", color: "#00008b" }}  href="https://sarahwxie.github.io/portfolio/#/projects">projects</Nav.Link>
+                  <Nav.Link style={{ fontFamily: "work-sans, sans-serif", color: "#00008b" }}  href="https://sarahwxie.github.io/portfolio/#/resume">resume</Nav.Link>
                 </Nav>
 
                 <div className="mediaIcons">
